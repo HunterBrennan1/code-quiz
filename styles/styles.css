@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --hue-neutral: #22333b;
+  --hue-wrong: #c71f37;
+  --hue-correct: #40916c;
+}
+
+body {
+  --hue: var(--hue-neutral);
+  font-family: poppins;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--hue-neutral);
+
+}
+
+body.correct {
+  background-color: var(--hue-correct);
+}
+
+body.wrong {
+  background-color: var(--hue-wrong);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+
+.timer {
+  color: white;
+}
+
+.highscores {
+  display: flex;
+  margin: 20px;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 3px;
+  border-radius: 30px;
+  background-color: #343a40;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.highscores:active {
+  background-color: white;
+  color: #343a40;
+}
+
+.timer {
+  display: flex;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.container {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 300px;
+  width: 50%;
+  max-width: 80%;
+  box-shadow: 0 0 10px 2px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  background-color: var(--hue-neutral);
+  color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--hue-neutral);
+}
+
+.btn.correct {
+  /* background-color: var(--hue-correct); */
+  color: #40916c;
+}
+
+.btn.wrong {
+  /* background-color: var(--hue-wrong); */
+  color: #c71f37;
+}
+
+
+.start-btn,
+.next-btn {
+  width: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+#description {
+  font-size: 20px;
+}
+
+.start-button {
+  margin: 20px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 30px;
+  background-color: #343a40;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.start-button:active {
+  background-color: white;
+  color: #343a40;
+}
