@@ -36,6 +36,12 @@ header {
   height: 50px;
 }
 
+h1 {
+  position: relative;
+  bottom: 30px;
+  font-size: 40px;
+}
+
 .timer {
   color: white;
 }
@@ -106,12 +112,10 @@ header {
 }
 
 .btn.correct {
-  /* background-color: var(--hue-correct); */
   color: #40916c;
 }
 
 .btn.wrong {
-  /* background-color: var(--hue-wrong); */
   color: #c71f37;
 }
 
