@@ -121,13 +121,8 @@ const questions = [
 ]
 
 
-startButton.addEventListener('click', timeH)
 const timeH = document.querySelector('h1');
-
 let timeSecond = 60;
-
-
-
 displayTime(timeSecond)
 
 const countDown = setInterval(() => {
@@ -148,4 +143,7 @@ function displayTime(second) {
 function endTime() {
   timeH.innerHTML = 'TIME IS UP'
 }
+
+
+
 
