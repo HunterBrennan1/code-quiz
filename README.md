@@ -10,4 +10,14 @@ The functionality of the quiz includes-
 
 3. A high score section that logs and displays scores from the player to compete with other players for a high score.
 
+
+<!-- Image that displays the home page of quiz -->
 C:\Users\hunte\Desktop\VsCode\code-quiz\styles\homework3.JPG
+<!-- image that displays the incorrect option for questions -->
+C:\Users\hunte\Desktop\VsCode\code-quiz\styles\homework2.JPG
+<!-- image that displays correct option for questions -->
+C:\Users\hunte\Desktop\VsCode\code-quiz\styles\homework3.JPG
+
+Link for deployed application ->
+
+https://hunterbrennan1.github.io/code-quiz/
